@@ -1,0 +1,64 @@
+body {
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	line-height: 1.7;
+
+	
+	color:$color-grey-dark;
+	//background: url(../img/body-bg.jpg) 0 0 no-repeat;
+	//background-size:cover;
+	//background-color: #696463;
+}
+
+
+.heading-secondary{
+
+	font-size: 5.5rem;
+	text-transform: uppercase;
+	font-weight: 700;
+	background-image: linear-gradient(to right, rgba($color-primary, 0.8), rgba($color-white, 0.8));
+	display: inline-block;
+	-webkit-background-clip: text;
+	color:transparent;
+	letter-spacing: .2rem;
+	transition: all .2s;
+
+	&:hover{
+
+	  transform: skewY(2deg) skewX(15deg) scale(1.1);
+	  text-shadow: .5rem 1rem 2rem rgba($color-black,  .2)
+	}
+	cursor: pointer;
+
+}
+
+.heading-tertiary{
+  
+	font-size: 3.5rem;
+	text-transform: uppercase;
+	font-weight: 700;
+	background-image: linear-gradient(to right, rgba($color-primary, 0.8), rgba($color-white, 0.8)),
+	 url(../img/look-good-bg.png);
+	 background-position: 0 0;
+	 
+
+	display: inline-block;
+	-webkit-background-clip: text;
+	color:transparent;
+	transform: skewY(2deg) skewX(15deg) scale(1.1);
+	text-shadow: .5rem 1rem 2rem rgba($color-black,  .2);
+	cursor: pointer;
+}
+
+
+.paragraph{
+
+	font-size: $default-font-size;
+	text-align: justify;
+	
+}
+
+.paragraph-color {
+
+	color:$color-white;
+}

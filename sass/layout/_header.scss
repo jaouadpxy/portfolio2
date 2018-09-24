@@ -1,0 +1,218 @@
+
+.header {
+	
+	z-index: 99999;
+	height: 95vh;
+	 background-image: linear-gradient(to right bottom, rgba($color-primary, 0.8), rgba($color-primary-dark, 0.8)),
+		url(../img/notebook.jpg);
+	//  background-image: linear-gradient(to right bottom, rgba($color-primary, 0.8), rgba($color-primary-dark, 0.8)),
+	// 	url(../img/notebook.jpg);
+	background-size: cover;
+	background-position: center;
+    background-repeat: no-repeat;
+
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+	clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+	position: relative;
+	width: 100%;
+	padding-top:6rem;
+	
+	&__main {
+		min-height:9.1rem;
+		max-width: 39.3rem;
+		width: 100%;
+		margin: 6rem auto 3.2rem;
+		background-image: url(../img/heading-title.png);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-position: center center;
+		
+		
+		
+
+		
+	}
+
+	&__text-box{
+		position: absolute;
+		top:25%;
+		left: 20%;
+		transform: translate(-50%, -50%);
+	}
+	
+	&-primary {
+		min-height: 100vh;
+		width: $grid-width;
+		margin: 6rem auto 0;
+		position: relative;
+		backface-visibility: hidden;
+
+		&__main {
+			opacity: 0.9;
+
+			height: 95vh;
+			background-image: url(../img/notebook-meduim.png);
+			background-position: center;
+			background-size: 100% 100%;
+			max-width: 114rem;
+			width: 100%;
+			background-repeat: no-repeat;
+			
+			display:inline-block;
+			-webkit-box-shadow: 1px 0px 15px 4px #000000;
+			box-shadow: 1px 0px 15px 4px #000000;
+			
+			
+            
+           
+		}
+		
+		
+	}
+}
+
+.heading-primary span{
+	        display: block;
+			font-size: 6.5rem;
+			font-weight: 700;
+			color: $color-white;
+			letter-spacing: .5rem;
+			line-height: 7rem;
+			
+}
+.heading-primary :nth-child(1){
+	animation-name: moveInRight;
+	animation-duration:1s;
+	animation-timing-function: ease-in-out;
+	position: relative;
+	left:2.5rem;
+}
+
+.heading-primary :nth-child(2){
+	animation-name:moveInLeft;
+	animation-duration:2s;
+	animation-timing-function: ease-in-out;
+	position: relative;
+	left:9rem;
+}
+
+.heading-primary :nth-child(3){
+	animation-name: moveInRight ;
+	animation-duration:2s;
+	animation-timing-function: ease-in-out;
+}
+
+.secondmain{
+	height: 25rem;
+	max-width: 90%;
+	margin: 0 auto  10rem;
+
+	padding: 2rem 0 5rem;
+	text-align: center;
+
+	 p {
+		background-position:top;
+		background-repeat: no-repeat;
+		background-image: url(../img/look-good.png);
+		width: 100%;
+		margin: 0 auto 5rem;
+		font-size: 2rem;
+		font-family: arial,sans-serif;
+		padding:6rem 0 8rem;
+		
+		color:#fff;
+	}
+}
+
+
+
+@media screen and (max-width: 1200px){
+	.header-primary{
+     width: 90rem;
+	}
+	.header-primary--sub__title{
+	   font-size: 6rem;
+	   line-height: 6rem;
+	}
+	.header-primary--sub{
+		
+		height: 95vh;
+	}
+	.header__main{
+
+		.big{
+			display: block;
+		}
+
+	}
+}
+
+@media screen and (max-width: 1000px){
+	.header-primary{
+	  max-width: 75em;
+	  width: 100%;
+	}
+	.header-primary--sub__title{
+	   font-size: 6rem;
+	   line-height: 6rem;
+	}
+	.header-primary--sub{
+		background-image: url(../img/notebook640.jpg);
+		height: 95vh;
+	}
+	.secondmain {
+       p{
+		background-image: url(../img/look-good-medium.png);
+		font-size:1.5rem;
+	   }
+	}
+	.header__text-box {
+		position: absolute;
+		top:18%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+
+	}
+	.heading-primary span{
+
+		font-size: 5rem;
+		line-height: 6rem;
+	}
+}
+
+
+@media screen and (max-width: 900px){
+	.secondmain {
+
+		padding-top : 7rem;
+	}
+
+}
+
+@media screen and (max-width: 600px){
+	
+	.secondmain {
+		padding-bottom:0;
+		margin-bottom:0;
+       p{
+		background-image: url(../img/look-good-small.png);
+		font-size:1.25rem;
+		padding-top:3rem;
+	   }
+	}
+
+	.header__main {
+		width: 65% !important;
+		margin-top:3rem;
+		
+	}
+
+	.header-primary__main {
+		width: 90% !important;
+		
+	}
+	.header-primary {
+		text-align: center;
+	}
+}
+
