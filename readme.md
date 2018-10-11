@@ -80,14 +80,8 @@ Usability or user experience was one of the key considerations throughout the de
 A deeper understanding of key project requirements was undertaken by carefully going through the Portfolio guideline document to gauge the the project scope, and identified the targeted audience. A clear project scope of work was then developed followed by brainstorming and researching to select the desired page layout, and other relevant visual design effect.  Utilizing the project scope, the Design was then broken down into small deliverable tasks and cards with clear deadlines, and the trello web Application was used to aid with planning process. A Project was then created on the development PC as well as on Github including the associated  folders and Repos before moving on the project implementation stage. Project wireframes were hand sketched, and photoshop was used to prepare the project Logo and moodboard.
 ### Project plan & timeline
 ![alt text](readmeImages/projectplan.png)
-### Screenshots of Trello board(s)
-![alt text](readmeImages/Trello_board_overall.PNG)
-![alt text](readmeImages/Project_Planning_Trello.png)
-![alt text](readmeImages/HTML_Trello_main.PNG)
-![alt text](readmeImages/CSS_Trello_main.PNG)
-![alt text](readmeImages/JS_Trello.PNG)
-![alt text](readmeImages/Wireframe_1.png)
-![alt text](readmeImages/Wireframe_2.png)
+
+
 ## Short Answer Q&A - Include short answers to the following questions,
 1. Describe key events in the development of the internet from the 1980s to today (max. 150 words)
 >The internet has come along way since its inception in the 1970s. The period between 1980s to today has lead to key events  in the development of the internet including the development of TCP/IP, the invention of World Wide Web, the launching of the first website by CERB, the introduction of first dial-up service by Pipex, the launching of Britain's first internet news Website- tegraph.co.uk, the introduction of first peer-to-peer(P2P) Music file-sharing site by Napste, the launching of BBC TV and radio catch-up service iPlayer, and most importantly, the launching of first iPhone delivering the internet in your pocket.
