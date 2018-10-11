@@ -1,6 +1,7 @@
 # Portfolio
 Student Portfolio Website Project 2018
 ## Link to portfolio
+<a href="https://portfolio02.herokuapp.com" target="_blank">https://portfolio02.herokuapp.com</a> 
 https://portfolio02.herokuapp.com
 ## Link to GitHub repo
 https://github.com/jaouadpxy/portfolio2
