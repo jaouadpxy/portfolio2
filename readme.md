@@ -3,7 +3,7 @@ Student Portfolio Website Project 2018
 ## Link to portfolio
 https://portfolio02.herokuapp.com
 ## Link to GitHub repo
-https://github.com/S-Kel/Portfolio
+https://github.com/jaouadpxy/portfolio2
 
 ## Description
 A portfolio website is a greatway to demonstrate personal abilities and skillset to gain more business and build professional brand. This website has been designed, built and deployed to showcase these skillset and coding experience.
@@ -24,7 +24,7 @@ Key features of this portfolio include the following at minimum:
 
 In future, these features will be made dynamic to ensure maintainability & scalability. This is expected to happen next semester after learning Ruby on rails and Node & Reacts/Redux. 
 ### Sitemap
-https://github.com/S-Kel/Portfolio/blob/master/sitemap.xml
+https://github.com/jaouadpxy/portfolio2/blob/master/sitemap.xml
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
     <urlset
@@ -34,7 +34,7 @@ https://github.com/S-Kel/Portfolio/blob/master/sitemap.xml
                 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
     <url>
-        <loc>https://s-kel.github.io/Portfolio/</loc>
+        <loc>https://portfolio02.herokuapp.com/</loc>
         <lastmod>2018-09-24T04:18:41+00:00</lastmod>
         <changefreq>always</changefreq>
     </url>
