@@ -68,7 +68,7 @@ A thorough design process was selected to ensure a successful completion of the 
 6. Future considerations including Site maintenance & scalability
 ### Wireframes
 The site wireframes were hand sketched and later converted to design moodboards in photoshop. 
-![alt text](readmeImages/wireframe1.png)
+![alt text](readmeImages/wireframe1.jpg)
 ![alt text](readmeImages/wireframe2.png)
 
 
