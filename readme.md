@@ -69,6 +69,7 @@ A thorough design process was selected to ensure a successful completion of the 
 ### Wireframes
 The site wireframes were hand sketched and later converted to design moodboards in photoshop. 
 ![alt text](readmeImages/wireframe_main_1.png)
+![alt text](readmeImages/wireframe_main_1.png)
 ![alt text](readmeImages/wireframe.PNG)
 
 ### Personal logo (optional)
